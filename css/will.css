@@ -126,6 +126,15 @@ a.about-link {
 	text-align: center;
 }
 
+.nav_btn_RG {
+	height: 23px;
+	padding-bottom: 3px;
+}
+
+.nav_btn.img:hover {
+	background-color: black;
+}
+
 .panel {
 	margin-bottom: 0;
 	background-color: transparent;
