@@ -122,17 +122,24 @@ a.about-link {
 	font-weight: bolder;
 }
 
-.nav_btn {
+.nav_btn_RG {
 	text-align: center;
+	width:;
 }
 
-.nav_btn_RG {
+.RG_icon {
 	height: 23px;
 	padding-bottom: 3px;
 }
 
-.nav_btn.img:hover {
-	background-color: black;
+.nav_btn_RG:hover {
+	visibility: hidden !important;
+}
+
+.nav_btn_RG_under {
+	position: absolute !important;
+	height: 23px;
+	padding-bottom: 3px;
 }
 
 .panel {
