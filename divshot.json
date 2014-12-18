@@ -1,0 +1,7 @@
+{
+  "name": "wills-website",
+  "clean_urls": true,
+  "routes": {
+  	"/*.html": "will.html"
+  }
+}
