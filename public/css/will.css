@@ -132,9 +132,9 @@ a.about-link {
 	padding-bottom: 3px;
 }
 
-.nav_btn_RG:hover {
+/*.nav_btn_RG:hover {
 	visibility: hidden !important;
-}
+}*/
 
 .nav_btn_RG_under {
 	position: absolute !important;
