@@ -113,8 +113,21 @@ div.modal-input{
 	margin-bottom: 5px;
 }
 
-a.about-link {
-	color: #B76033;
+.link {
+	font-weight: 700;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #505059;
+}
+
+a.about_link {
+	color: #3939A5;
+}
+
+a.cv_link {
+	color: #BE4405;
 }
 
 .navbar-nav > li > a {
