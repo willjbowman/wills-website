@@ -214,3 +214,11 @@ a.cv_link {
 	color: black;
 	text-decoration: none;
 }
+
+.linkedin_nav:hover {
+	color: #0177B5 !important;
+}
+
+.git_nav:hover {
+	color: #F44D27 !important;
+}
