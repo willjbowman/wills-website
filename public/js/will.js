@@ -22,7 +22,7 @@ function to_icon( dom_elem ) {
 	var width =	$( dom_elem ).width();
 	$( dom_elem ).width( width );
 
-	console.log(width)
+	// console.log(width)
 
 	if ( $( dom_elem ).attr( "href" ) == "#hello" ) {
 		$( dom_elem ).html( '<i class="fa fa-coffee fa-lg"></i>' );
