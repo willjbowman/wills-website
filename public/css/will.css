@@ -145,9 +145,19 @@ a.cv_link {
 	padding-bottom: 1px;
 }
 
-/*.nav_btn_RG:hover {
-	visibility: hidden !important;
-}*/
+.RG_icon_stack {
+	height: 18px;
+	width: 18px;
+	background: url( '../img/rg_icon_stack.png' );
+	background-repeat: no-repeat;
+	background-position: 0px -18px;
+	background-size: auto 36px;
+	margin-top: 1px;
+}
+
+.RG_icon_stack:hover {
+	background-position: 0px 0px;
+}
 
 .nav_btn_RG_under {
 	position: absolute !important;
