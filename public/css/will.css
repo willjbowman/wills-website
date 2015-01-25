@@ -140,6 +140,20 @@ a.cv_link {
 	width:;
 }
 
+.a_rg {
+	width: 46px;
+	height: 50px;
+	background: url( '../img/rg_icon_stack.png' );
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 36px;
+	/*margin-top: 1px;*/
+}
+
+.a_rg:hover {
+	background-position: 0px 0px;
+}
+
 .RG_icon {
 	height: 18px;
 	padding-bottom: 1px;
