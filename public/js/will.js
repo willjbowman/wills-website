@@ -31,7 +31,7 @@ function to_color_img( dom_elem ) {
 }
 
 function to_bw_img( dom_elem ) {
-	$( dom_elem ).html( '<img src="img/research_gate.png" class="RG_icon">' );
+	$( dom_elem ).html( '<img src="img/research_gate_rounded_bw.jpg" class="RG_icon">' );
 }
 
 function to_icon( dom_elem ) {
