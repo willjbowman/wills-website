@@ -16,23 +16,23 @@ $( document ).ready( function() {
 	// 	}
 	// );
 
-	$( ".nav_btn_RG" ).hover(
-		function() {
-			to_color_img( this );
-		}, function() {
-			to_bw_img( this );
-		}
-	);
+	// $( ".nav_btn_RG" ).hover(
+	// 	function() {
+	// 		to_color_img( this );
+	// 	}, function() {
+	// 		to_bw_img( this );
+	// 	}
+	// );
 
 });
 
-function to_color_img( dom_elem ) {
-	$( dom_elem ).html( '<img src="img/research_gate_rounded.jpg" class="RG_icon">' );
-}
+// function to_color_img( dom_elem ) {
+// 	$( dom_elem ).html( '<img src="img/research_gate_rounded.jpg" class="RG_icon">' );
+// }
 
-function to_bw_img( dom_elem ) {
-	$( dom_elem ).html( '<img src="img/research_gate_rounded_bw.jpg" class="RG_icon">' );
-}
+// function to_bw_img( dom_elem ) {
+// 	$( dom_elem ).html( '<img src="img/research_gate_rounded_bw.jpg" class="RG_icon">' );
+// }
 
 function to_icon( dom_elem ) {
 	var width =	$( dom_elem ).width();
