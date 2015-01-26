@@ -1,5 +1,6 @@
 $( document ).ready( function() {
 
+	// listeners to animate nav button 
 	$( ".nav_btn" ).hover(
 		function() {
 			to_icon( this );
@@ -8,32 +9,9 @@ $( document ).ready( function() {
 		}
 	);
 
-	// $( ".download_btn" ).hover(
-	// 	function() {
-	// 		to_icon ( this );
-	// 	}, function() {
-	// 		to_text( this );
-	// 	}
-	// );
-
-	// $( ".nav_btn_RG" ).hover(
-	// 	function() {
-	// 		to_color_img( this );
-	// 	}, function() {
-	// 		to_bw_img( this );
-	// 	}
-	// );
-
 });
 
-// function to_color_img( dom_elem ) {
-// 	$( dom_elem ).html( '<img src="img/research_gate_rounded.jpg" class="RG_icon">' );
-// }
-
-// function to_bw_img( dom_elem ) {
-// 	$( dom_elem ).html( '<img src="img/research_gate_rounded_bw.jpg" class="RG_icon">' );
-// }
-
+// switch nav btn text to icon
 function to_icon( dom_elem ) {
 	var width =	$( dom_elem ).width();
 	$( dom_elem ).width( width );
@@ -60,6 +38,7 @@ function to_icon( dom_elem ) {
 	}
 }
 
+// switch nav btn from icon to text
 function to_text( dom_elem ) {
 	if ( $( dom_elem ).attr( "href" ) == "#hello" ) {
 		$( dom_elem ).html( 'hello' );
