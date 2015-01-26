@@ -1,0 +1,3 @@
+[submodule "public/downloads/cv"]
+	path = public/downloads/cv
+	url = https://github.com/willjbowman/cv.git

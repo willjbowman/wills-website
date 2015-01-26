@@ -140,14 +140,38 @@ a.cv_link {
 	width:;
 }
 
-.RG_icon {
-	height: 23px;
-	padding-bottom: 3px;
+.a_rg {
+	width: 46px;
+	height: 50px;
+	background: url( '../img/rg_icon_stack.jpg' );
+	background-repeat: no-repeat;
+	background-position: center -21px;
+	background-size: 18px auto;
+	/*margin-top: 1px;*/
 }
 
-/*.nav_btn_RG:hover {
-	visibility: hidden !important;
-}*/
+.a_rg:hover {
+	background-position: center 16px;
+}
+
+.RG_icon {
+	height: 18px;
+	padding-bottom: 1px;
+}
+
+.RG_icon_stack {
+	height: 18px;
+	width: 18px;
+	background: url( '../img/rg_icon_stack.png' );
+	background-repeat: no-repeat;
+	background-position: 0px -18px;
+	background-size: auto 36px;
+	margin-top: 1px;
+}
+
+.RG_icon_stack:hover {
+	background-position: 0px 0px;
+}
 
 .nav_btn_RG_under {
 	position: absolute !important;
@@ -213,4 +237,12 @@ a.cv_link {
 .project_lin:hover {
 	color: black;
 	text-decoration: none;
+}
+
+.linkedin_nav:hover {
+	color: #0177B5 !important;
+}
+
+.git_nav:hover {
+	color: #F44D27 !important;
 }
