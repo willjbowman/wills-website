@@ -156,7 +156,8 @@ a.cv_link {
 
 @media (max-width: 768px) {
 	.a_rg {
-		width: 644px;
+		width: 100%;
+		/*width: 644px;*/
 	}
 }
 
