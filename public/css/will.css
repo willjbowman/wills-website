@@ -136,6 +136,10 @@ a.about_link {
 	color: #3939A5;
 }
 
+a.featured_link {
+	color: #9F0000;
+}
+
 a.cv_link {
 	color: #BE4405;
 }
