@@ -19,17 +19,17 @@ function to_icon( dom_elem ) {
 	// console.log(width)
 
 	if ( $( dom_elem ).attr( "href" ) == "#hello" ) {
-		$( dom_elem ).html( '<i class="fa fa-coffee fa-lg"></i>' );
+		$( dom_elem ).html( '<i class="fa fa-coffee fa-lg hello"></i>' );
 	} 
 	else if ( $( dom_elem ).attr( "href" ) == "#about" ) {
-		$( dom_elem ).html( '<i class="fa fa-bicycle fa-lg"></i>' );
+		$( dom_elem ).html( '<i class="fa fa-bicycle fa-lg about"></i>' );
+	}  
+	else if ( $( dom_elem ).attr( "href" ) == "#featured" ) {
+		$( dom_elem ).html( '<i class="fa fa-thumbs-o-up fa-lg featured"></i>' );
 	} 
 	else if ( $( dom_elem ).attr( "href" ) == "#cv" ) {
-		$( dom_elem ).html( '<i class="fa fa-flask fa-lg"></i>' );
-	} 
-	else if ( $( dom_elem ).attr( "href" ) == "#projects" ) {
-		$( dom_elem ).html( '<i class="fa fa-rocket fa-lg"></i>' );
-	} 
+		$( dom_elem ).html( '<i class="fa fa-flask fa-lg cv"></i>' );
+	}
 	else if ( $( dom_elem ).attr( "filetype" ) == "pdf" ) {
 		$( dom_elem ).html( '<i class="fa fa-file-pdf-o fa-4x"></i>' );
 	} 
@@ -46,12 +46,12 @@ function to_text( dom_elem ) {
 	else if ( $( dom_elem ).attr( "href" ) == "#about" ) {
 		$( dom_elem ).html( 'about' );
 	}
+	else if ( $( dom_elem ).attr( "href" ) == "#featured" ) {
+		$( dom_elem ).html( 'featured' );
+	} 
 	else if ( $( dom_elem ).attr( "href" ) == "#cv" ) {
 		$( dom_elem ).html( 'cv' );
 	}
-	else if ( $( dom_elem ).attr( "href" ) == "#projects" ) {
-		$( dom_elem ).html( 'projects' );
-	} 
 	else if ( $( dom_elem ).attr( "filetype" ) == "pdf" ) {
 		$( dom_elem ).html( '<div style="width:40px;height:40px"><b>.pdf</b></div>' );
 	} 
