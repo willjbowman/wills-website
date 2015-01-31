@@ -70,42 +70,52 @@ div.modal-input{
 	width: 300px;
 }
 
-.request_status{
-	
-}
-
-#hello {
-	background: #5cb85c;
-	padding: 15% 0px;
-	overflow: hidden;
-	position: relative;
-}
-
 .spacer {
 	padding: 15% 0px;
 	overflow: hidden;
 	position: relative;
 }
 
-#about {
-	background: #5bc0de;
+.content_section {
 	padding: 15% 0px;
 	overflow: hidden;
 	position: relative;
+}
+
+#hello {
+	background: #5cb85c;
+}
+
+.hello {
+	color: #5cb85c;
+}
+
+#about {
+	background: #5bc0de;
+}
+
+.about {
+	color: #5bc0de;
+}
+
+#featured {
+	background: #D9534F;
+}
+
+.featured {
+	color: #D9534F;
 }
 
 #projects {
 	background: #d9534f;
-	padding: 15% 0px;
-	overflow: hidden;
-	position: relative;
 }
 
 #cv {
 	background: #f0ad4e;
-	padding: 15% 0px;
-	overflow: hidden;
-	position: relative;
+}
+
+.cv {
+	color: #f0ad4e;
 }
 
 .about-image {
