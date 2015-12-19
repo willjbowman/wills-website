@@ -1,0 +1,244 @@
+.navbar-will {
+	background-color: white;
+	border-color: white;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+}
+
+.collapse-will {
+	border-color: transparent;
+}
+
+/*should be modal object or something*/
+.modal-btn{
+	margin: 0 auto;
+	width: 300px;
+}
+
+div.modal-button{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+div.modal-input{
+	margin: 0 auto;
+	width: 300px;
+	margin-bottom: 5px;
+}
+
+.modal-or-separator{
+	text-align: center;
+}
+
+.login-options{
+	margin-bottom: 5px;
+}
+
+.remember_me{
+	float: left;
+}
+
+.forgot_password{
+	float: right;
+}
+
+.master-navbar{
+	margin-bottom: 0;
+}
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.inbox-select{
+	width: 200px;
+}
+
+.ui-col-option{
+	width: 100%;
+}
+
+.form-input{
+	height: 45px;
+	margin-bottom: 5px;
+}
+
+.modal-radio{
+	width: 300px;
+}
+
+.spacer {
+	padding: 15% 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.content_section {
+	padding: 15% 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+#hello {
+	background: #5cb85c;
+}
+
+.hello {
+	color: #5cb85c;
+}
+
+#about {
+	background: #5bc0de;
+}
+
+.about {
+	color: #5bc0de;
+}
+
+#featured {
+	background: #D9534F;
+}
+
+.featured {
+	color: #D9534F;
+}
+
+#projects {
+	background: #d9534f;
+}
+
+#cv {
+	background: #f0ad4e;
+}
+
+.cv {
+	color: #f0ad4e;
+}
+
+.about-image {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.link {
+	font-weight: 700;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #505059;
+}
+
+a.about_link {
+	color: #3939A5;
+}
+
+a.featured_link {
+	color: #9F0000;
+}
+
+a.cv_link {
+	color: #BE4405;
+}
+
+.navbar-nav > li > a {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nav_btn_RG {
+	text-align: center;
+	width:;
+}
+
+.a_rg {
+	width: 46px;
+	height: 50px;
+	background: url( '../img/rg_icon_stack.jpg' );
+	background-repeat: no-repeat;
+	background-position: center -21px;
+	background-size: 18px auto;
+	/*margin-top: 1px;*/
+}
+
+.a_rg:hover {
+	background-position: center 16px;
+}
+
+@media (max-width: 768px) {
+	.a_rg {
+		width: 100%;
+		/*width: 644px;*/
+	}
+}
+
+.panel {
+	margin-bottom: 0;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.panel-heading {
+	padding-bottom: 0;
+}
+
+.project-grid-img {
+	max-width: 100%;
+}
+
+.project-grid {
+	margin-bottom: 5px;
+}
+
+.project_grid_caption {
+	position: absolute;
+	bottom: 0px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	padding: 5% 30px 1% 0px;
+}
+
+.caption_dark {
+	color: black;
+}
+
+.project_grid_caption:hover {
+	color: grey;
+}
+
+.my_name_is_will {
+	width: 50%;
+	max-width: 500px;
+}
+
+.project {
+	color: #FFFFFF;
+}
+
+.project:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.project_link {
+	color: #FFFFFF;
+}
+
+.project_lin:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.linkedin_nav:hover {
+	color: #0177B5 !important;
+}
+
+.git_nav:hover {
+	color: #F44D27 !important;
+}
