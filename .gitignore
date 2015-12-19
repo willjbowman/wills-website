@@ -10,3 +10,6 @@ mess.html
 content-text.docx
 /.divshot-cache
 >>>>>>> stage
+
+# git push wills-website-stage stage:master ## pushes local stage branch to remote master of staging app
+# git push wills-website master ## pushes local master to remote master of production app
