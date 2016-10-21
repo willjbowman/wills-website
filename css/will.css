@@ -1,3 +1,8 @@
+html, body {
+	height: 100%;
+	color: #330033;
+}
+
 .navbar-will {
 	background-color: white;
 	border-color: white;
@@ -77,33 +82,41 @@ div.modal-input{
 }
 
 .content_section {
-	padding: 15% 0px;
+	/*padding: 15% 0px;*/
+	padding: 20vh 0px;
 	overflow: hidden;
 	position: relative;
 }
 
 #hello {
-	background: #5cb85c;
+	height: 100%;
+	/*background: #5cb85c;*/
+	background: #DE613A;
 }
 
 .hello {
-	color: #5cb85c;
+	/*color: #5cb85c;*/
+	color: #DE613A;
 }
 
 #about {
-	background: #5bc0de;
+	/*background: #5bc0de;*/
+	background: #5180AD;
 }
 
 .about {
-	color: #5bc0de;
+	/*color: #5bc0de;*/
+	color: #5180AD;
 }
 
 #featured {
-	background: #D9534F;
+	/*background: #D9534F;*/
+	background: #9470B7;
 }
 
 .featured {
-	color: #D9534F;
+	/*color: #D9534F;*/
+	color: #9470B7;
 }
 
 #projects {
@@ -111,11 +124,13 @@ div.modal-input{
 }
 
 #cv {
-	background: #f0ad4e;
+	/*background: #f0ad4e;*/
+	background: #5180AD;
 }
 
 .cv {
-	color: #f0ad4e;
+	/*color: #f0ad4e;*/
+	color: #5180AD;
 }
 
 .about-image {
@@ -125,6 +140,7 @@ div.modal-input{
 
 .link {
 	font-weight: 700;
+	color: #9F0000;
 }
 
 .link:hover {
