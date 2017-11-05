@@ -165,29 +165,31 @@ a.cv_link {
 	font-weight: bolder;
 }
 
-.nav_btn_RG {
-	text-align: center;
-	width:;
+.a_gs {
+	background: url( '../img/gs_icon_stack.png' );
 }
 
+
 .a_rg {
+	background: url( '../img/rg_icon_stack.jpg' );
+}
+
+.nav_btn_ {
+	text-align: center;
 	width: 46px;
 	height: 50px;
-	background: url( '../img/rg_icon_stack.jpg' );
 	background-repeat: no-repeat;
 	background-position: center -21px;
 	background-size: 18px auto;
-	/*margin-top: 1px;*/
 }
 
-.a_rg:hover {
+.nav_btn_:hover {
 	background-position: center 16px;
 }
 
 @media (max-width: 768px) {
-	.a_rg {
+	.nav_btn_ {
 		width: 100%;
-		/*width: 644px;*/
 	}
 }
 
