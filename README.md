@@ -3,4 +3,8 @@
 
 will bowman's personal website
 
-cv files are tracked in cv repo, <code>git pull origin master</code> from /public/downloads/cv after updating cv files. This will automatically update the cv files in the downloads directory and make them available for public download by site guests.
+new files added and update:
+> git add .
+> git commit -a -m "message to yourself"
+> git push origin master
+> git push heroku master
